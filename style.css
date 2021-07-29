@@ -1,3 +1,8 @@
+body{
+font-family: 'Cabin', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Poppins', sans-serif;
+}
 .header-bg-info{
     background: #264653;
 }
