@@ -16,3 +16,6 @@ background: #E76F51;
 .grayscale-section{
     filter: grayscale(100%);
 }
+.customizing-text-color{
+    color: #E76F51;
+}
