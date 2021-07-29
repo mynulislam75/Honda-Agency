@@ -1,33 +1,56 @@
+/* adding google font css style  */
 body{
 font-family: 'Cabin', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Poppins', sans-serif;
 }
+
+/* header background style  */
 .header-bg-info{
     background: #264653;
 }
+
+/* customize header font color  */
 .first-header-customize{
     color: #FFFFFF;
 }
+
+/* customize header font color  */
 .second-header-customize{
     color: #E0E0E0;
 }
+
+/* customize button background  */
 .customizing-button{
 background: #E76F51;
 }
+
+
 #customizing-first-main-part{
     color: #E76F51;
 }
+
+/* grayscale style  */
 .grayscale-section{
     filter: grayscale(100%);
 }
 .customizing-text-color{
     color: #E76F51;
 }
+
+/* customize a tags background color  */
 .bg-customizing{
     text-decoration: none;
-    background-image: linear-gradient(green,yellow,red);
+    background-color: rgb(28, 212, 120);
+    color: rgb(224, 252, 252);
+    border-radius: 2px;
     padding: 2px;
-    border-radius: 3px;
-    size: 5px;
+}
+
+/* customize a tags background color  */
+.bike-details{
+    text-decoration: none;
+    background-color: orange;
+    color: azure;
+    padding: 2px;
 }
