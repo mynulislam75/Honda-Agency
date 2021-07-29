@@ -9,13 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome script  -->
     <script src="https://kit.fontawesome.com/ea15506169.js" crossorigin="anonymous"></script>
+    <!-- css stylesheet link  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
      <!-- header section start -->
 
-    <header class="bg-info">
+    <header class="header-bg-info">
      
         <!-- navigation part -->
         <section class="d-flex justify-content-end me-5">
@@ -46,18 +48,49 @@
 
 
         <!-- headers main highlights part -->
-            <div class="d-flex justify-content-center mt-5">
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, corporis.
-                    </p>
-                    <h1>Honda CRB 300R</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quae?</p>
-                    <button class="btn-warning">Purchase</button>
+
+        <div class="row">
+
+          <div class="col-6">
+            <div class="ms-5 mt-5">
+              <p class="first-header-customize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, corporis.
+              </p>
+              <h1 class="first-header-customize">Honda CRB 300R</h1>
+              <p class="second-header-customize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptates quam molestiae distinctio nemo dolor similique in, earum magni odit.</p>
+             <!-- Button trigger modal -->
+            <button type="button" class="customizing-button b-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Purchase
+             </button>
+
+             <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+              <div class="modal-content">
+               <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div>
-                    <img class="img-fluid" src="images/header-bike.png" alt="">
-                </div>
+             <div class="modal-body">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia repudiandae quas odit, quo distinctio eveniet commodi. Tempora fugit recusandae doloremque?
+              </div>
+               <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+               </div>
+              </div>
+             </div>
             </div>
+          </div>
+
+          <div class="col-6">
+            <img class="img-fluid" src="images/header-bike.png" alt="" width="452" height="347">
+          </div>
+        </div>
+
+
+
+
 
     </header>
 
@@ -65,12 +98,12 @@
 
     <main>
 
-        <section class="container mt-5">
+        <section class="container mt-5 fw-bold">
             <div class="d-flex justify-content-center">
             <h1>Fetured Bikes 2021</h1>
             </div>
            <div class="d-flex justify-content-center mt-2">
-            <small>Best bike collection</small>
+            <small id="customizing-first-main-part">Best bike collection</small>
            </div>
         </section>
 
@@ -79,13 +112,13 @@
             <div class="container overflow-hidden">
                 <div class="row gx-5">
                   <div class="col">
-                   <div class="p-3"><img class="img-fluid" src="images/bike-4.jpg" alt=""></div>
+                   <div class="p-3"><img class="img-fluid grayscale-section" src="images/feature-bike.jpg" alt=""></div>
                   </div>
                   <div class="col">
                     <div class="p-3"><img class="img-fluid"  src="images/feature-bike.jpg" alt=""></div>
                   </div>
                   <div class="col">
-                    <div class="p-3"><img class="img-fluid"  src="images/bike-4.jpg" alt=""></div>
+                    <div class="p-3"><img class="img-fluid grayscale-section"  src="images/feature-bike.jpg" alt=""></div>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,18 @@
+.header-bg-info{
+    background: #264653;
+}
+.first-header-customize{
+    color: #FFFFFF;
+}
+.second-header-customize{
+    color: #E0E0E0;
+}
+.customizing-button{
+background: #E76F51;
+}
+#customizing-first-main-part{
+    color: #E76F51;
+}
+.grayscale-section{
+    filter: grayscale(100%);
+}
